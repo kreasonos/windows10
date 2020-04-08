@@ -1,0 +1,6 @@
+Windows 10 Github steps:
+
+1. Download linux in the Microsoft store
+2. Enable the windows subsystem for linux
+3. Create a github account (usr name and passwd)
+4.git clone 'repository'
