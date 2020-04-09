@@ -1,18 +1,10 @@
-Windows 10 Github steps:
+Steps to using GitHub in Linux on the Windows 10 Desktop
 
-1. Download linux in the Microsoft store
-2. Enable the windows subsystem for linux
-3. Create a github account (usr name and passwd)
-4.git clone 'repository'
-5. touch github.txt
-6. nano github.txt
-7. ctrl o enter
-8. ctrl x exit
-9. git status (file is red because it has not been added)
-10. git add github.txt
-11. git status (now the file is green)
-12. git commit -m 'what did you do?'
-13. git status (it will say there is nothing to commit)
-14. git push origin master
-15. you will be prompted for your Git usr id and passwd
-16. your changes and/or your file will not be visible in the repository
+1. Enable Windows subsystem for Linux
+2. Download Linux from the Microsoft store
+3. Open Linux, creat a usr name and passwd
+4. Go to Github.com and make an account (usr id/passwd)
+5. Check to see if Git is already installed on your Linux system by opening a shell and typing this command: git --version
+6. If Git is not installed then type this command: sudo apt install git
+7. Clone a Github repository onto your system by typing: git clone (web address to the repository)
+8.
