@@ -7,4 +7,10 @@ Steps to using GitHub in Linux on the Windows 10 Desktop
 5. Check to see if Git is already installed on your Linux system by opening a shell and typing this command: git --version
 6. If Git is not installed then type this command: sudo apt install git
 7. Clone a Github repository onto your system by typing: git clone (web address to the repository)
-8.
+8. Type: git status
+9. You need to add the file by typing: git add (file name)
+10. Type: git status
+11. The file will show up as green which means it's ready to be commited 
+12. Next, you need to commit the file by typing: git commit -m 'what did you do?'
+13. Next you need to push the file to the repository by typing: git push origin master
+14. Enter your Github usr name and passwd
